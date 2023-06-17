@@ -72,7 +72,7 @@ else:
 
 # Pre-Process #
 
-df = pd.read_csv('mxmh_survey_results.csv') # read csv
+df = pd.read_csv('lending_club_loan_two_shorten.csv') # read csv
 df = df.sort_values('Fav genre')
 
 genres_to_remove = ['Jazz', 'Lofi', 'Gospel', 'Latin','Rap','Country','K pop'] # remove genres with num of records < 30
