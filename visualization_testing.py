@@ -32,7 +32,7 @@ from plotly.subplots import make_subplots
 st.set_page_config(page_title="Streamlit Project",
                    page_icon=":bar_chart:",
                   layout="wide")
-
+st.title('PROJECT')
 
 color_blind = st.selectbox("Are you color blind?",['No','Yes']) # Did you know that 9% of men are color blind?
 if color_blind == 'Yes': 
@@ -73,7 +73,6 @@ else:
 # Pre-Process #
 
 df = pd.read_csv('lending_club_loan_two_shorten.csv') # read csv
-st.title('PROJECT')
 df = df.sort_values('Fav genre')
 
 genres_to_remove = ['Jazz', 'Lofi', 'Gospel', 'Latin','Rap','Country','K pop'] # remove genres with num of records < 30
