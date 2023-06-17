@@ -8,12 +8,12 @@ Original file is located at
 """
 
 
-import chart_studio.plotly as py
-import plotly.figure_factory as ff
+# import chart_studio.plotly as py
+# import plotly.figure_factory as ff
 import numpy as np
 import pandas as pd
-import plotly.graph_objs as go
-import plotly
+# import plotly.graph_objs as go
+# import plotly
 
 import re
 
