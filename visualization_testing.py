@@ -486,4 +486,3 @@ build_line_charts_for_datasets()
 build_bar_charts_for_datasets()
 build_scatterplot_for_datasets()
 
-!streamlit run main.py --server.port 8501&
