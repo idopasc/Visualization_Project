@@ -196,10 +196,6 @@ print(counts)
 counts = data['address'].value_counts()
 print(counts)
 
-pip install streamlit
-
-pip install altair
-
 import pandas as pd
 import streamlit as st
 import altair as alt
