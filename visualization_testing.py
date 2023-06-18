@@ -77,7 +77,7 @@ else:
   
 ##################################### Pre-Process ###################################### 
 df = pd.read_csv('lending_club_loan_two_shorten.csv') # read csv
-df = df.sort_values('Fav genre')
+df = df.sort_values('emp_title')
 df = df.rename(columns={"Fav genre": "Favorite Genre"})
 
 genres_to_remove = ['Jazz', 'Lofi', 'Gospel', 'Latin','Rap','Country','K pop'] # remove genres with num of records < 30
