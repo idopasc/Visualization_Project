@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-"""Visualization Final Project.ipynb
-"""
 ####################################### Imports #######################################
 import streamlit as st
 import pandas as pd
