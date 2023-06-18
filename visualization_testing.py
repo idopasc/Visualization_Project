@@ -76,7 +76,7 @@ else:
     }
   
 ##################################### Pre-Process ###################################### 
-df = pd.read_csv('mxmh_survey_results.csv') # read csv
+df = pd.read_csv('lending_club_loan_two_shorten.csv') # read csv
 df = df.sort_values('Fav genre')
 df = df.rename(columns={"Fav genre": "Favorite Genre"})
 
