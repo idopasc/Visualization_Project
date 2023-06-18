@@ -74,7 +74,7 @@ else:
     }
   
 ##################################### Pre-Process ###################################### 
-df = pd.read_csv('lending_club_loan_two_shorten.csv)
+df = pd.read_csv('lending_club_loan_two_shorten.csv')
 df = df.sort_values('emp_title')
 df = df.rename(columns={"Fav genre": "Favorite Genre"})
 
